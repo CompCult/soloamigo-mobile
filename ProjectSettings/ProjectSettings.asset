@@ -3,7 +3,7 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 17
+  serializedVersion: 18
   productGUID: 69e2de2273139fd428039254fee2b321
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -52,8 +52,8 @@ PlayerSettings:
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
-  iosAppInBackgroundBehavior: 0
   displayResolutionDialog: 0
+  iosUseCustomAppBackgroundBehavior: 0
   iosAllowHTTPDownload: 1
   allowedAutorotateToPortrait: 1
   allowedAutorotateToPortraitUpsideDown: 1
@@ -166,7 +166,7 @@ PlayerSettings:
   buildNumber: {}
   AndroidBundleVersionCode: 124
   AndroidMinSdkVersion: 16
-  AndroidTargetSdkVersion: 0
+  AndroidTargetSdkVersion: 29
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
@@ -257,8 +257,8 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/GCint/Documents/GitHub/inovarg-mobile/compcult.keystore
-  AndroidKeyaliasName: inovarg
+  AndroidKeystoreName: '{inproject}: compcultsolo.keystore'
+  AndroidKeyaliasName: solo amigo
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 0
@@ -826,6 +826,7 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   XboxOneXTitleMemory: 8
+  xboxOneScriptCompiler: 1
   XboxOneOverrideIdentityName: 
   vrEditorSettings:
     daydream:
