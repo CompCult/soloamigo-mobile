@@ -19,7 +19,7 @@ public class PostCard : MonoBehaviour
 		if (UserService.user.points <= 0)
 		{
 			string title = string.Format("Sem {0}(s)", ENV.POINT),
-						 message = string.Format("Você não tem {0}(s) para dar. Realize atividades e participe no aplicativo para ganhar mais.", ENV.POINT);
+						 message = string.Format("Você não tem {0}(s) para dar. Realize os Atos e participe no aplicativo para ganhar mais.", ENV.POINT);
 
 			AlertsService.makeAlert(title, message, "OK");
 			return;

@@ -28,7 +28,8 @@ public class MissionsController : ScreenController
 	{
 		if (!CheckFields())
 		{
-			AlertsService.makeAlert("Código inválido", "Digite um código secreto com pelo menos quatro caracteres para realizar a busca.", "Entendi");
+			AlertsService.makeAlert("Por favor repita sua tarefa", "", "Entendi");
+			//AlertsService.makeAlert("Código inválido", "Digite um código secreto com pelo menos quatro caracteres para realizar a busca.", "Entendi");
 			yield break;
 		}
 

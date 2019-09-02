@@ -152,7 +152,8 @@ public class MissionController : ScreenController
 				OpenModal("Final");
 			else
 			{
-				AlertsService.makeAlert("Resposta enviada", "Boa! Sua resposta foi enviada com sucesso. Você será redirecionado(a) para as missões.", "");
+				AlertsService.makeAlert("Resposta enviada", "", "");
+				//AlertsService.makeAlert("Resposta enviada", "Boa! Sua resposta foi enviada com sucesso. Você será redirecionado(a) para as missões.", "");
 				yield return new WaitForSeconds(5f);
 				LoadView("Missions");
 			}

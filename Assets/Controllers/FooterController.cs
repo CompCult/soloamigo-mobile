@@ -8,7 +8,7 @@ public class FooterController : ScreenController
 	public GameObject[] buttons;
 	public GameObject buttonsMenu;
 
-	private Color brownColor = new Color(0.6470588f, 0.1647059f, 0.1647059f),
+	private Color greenColor = new Color(0.07450981f, 0.7568628f, 0.3333333f),
 				  greyColor = new Color(0.4470589f, 0.4470589f, 0.4470589f);
 
 	public void Start()
@@ -24,7 +24,7 @@ public class FooterController : ScreenController
 
 		foreach (GameObject button in buttons)
 			if (button.name == view)
-				MarkButton(button, brownColor);
+				MarkButton(button, greenColor);
 			else
 				MarkButton(button, greyColor);
 	}

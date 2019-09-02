@@ -10,7 +10,7 @@ public class QuizzesController : ScreenController
 
 	public void Start ()
 	{
-		TutorialService.CheckTutorial("Quizzes");
+		TutorialService.CheckTutorial("Escolhas"); // "Quizzes"
 
 		previousView = "Home";
 		quizCard.SetActive(false);
@@ -28,7 +28,8 @@ public class QuizzesController : ScreenController
 	{
 		if (!CheckFields())
 		{
-			AlertsService.makeAlert("Código inválido", "Digite um código secreto com pelo menos quatro caracteres para realizar a busca.", "Entendi");
+			AlertsService.makeAlert("Por favor repita sua tarefa", "", "Entendi");
+			// AlertsService.makeAlert("Código inválido", "Digite um código secreto com pelo menos quatro caracteres para realizar a busca.", "Entendi");
 			yield break;
 		}
 
@@ -63,7 +64,7 @@ public class QuizzesController : ScreenController
 	{
 		User currentUser = UserService.user;
 
-		AlertsService.makeLoadingAlert("Recebendo quizzes");
+		AlertsService.makeLoadingAlert("Recebendo escolhas");
 		WWW quizzesRequest = QuizzesService.GetQuizzes(currentUser._id);
 
 		while (!quizzesRequest.isDone)

@@ -10,7 +10,7 @@ public class QuizController : ScreenController
 
 	public void Start ()
 	{
-		previousView = "Quizzes";
+		previousView = "Escolhas"; // "Quizzes"
 		optionCard.SetActive(false);
 
 		quizTitle.text = QuizzesService.quiz.title;

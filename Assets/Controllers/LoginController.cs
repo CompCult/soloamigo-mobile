@@ -7,8 +7,8 @@ public class LoginController : ScreenController
 {
 	public InputField emailField, passwordField;
 
-	public void Start ()
-	{
+	// START IN APP
+	public void Start () {
 		CheckAuthenticatedUser();
 	}
 

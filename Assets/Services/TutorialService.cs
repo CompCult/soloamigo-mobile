@@ -33,7 +33,7 @@ public static class TutorialService
 		{
 			PlaySound();
 
-			AlertsService.makeAlert("Aviso", "Essa página é focada para estudantes do município. A maior parte do conteúdo aqui presente foi apresentado por tutores ou professores previamente em sala.", "Entendi");
+			AlertsService.makeAlert("Aviso", "Essa página é focada em Responder Missões e Escolhas relevantes para a sociedade.", "Entendi");
 			PlayerPrefs.SetString(hash, STATUS_DONE);
 		}
 	}

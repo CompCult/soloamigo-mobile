@@ -5,14 +5,14 @@ public static class ENV  {
 
 // ACCESS
 public static string
-API_URL = "http://solo-amigo.herokuapp.com",
+API_URL = "https://solo-amigo.herokuapp.com/",
 GOOGLE_MAPS_KEY = "AIzaSyACtmxnxRymLJh3rhS0wkAaFsFgDNzXLDk",
 GOOGLE_MAPS_URL = "https://maps.googleapis.com/maps/api/staticmap?center=PLACE&zoom=15&size=600x300&maptype=terrain&markers=color:green%7CPLACE",
 GOOGLE_MAPS_COORD_URL = "https://maps.googleapis.com/maps/api/staticmap?center=PLACE&zoom=19&size=550x500&maptype=terrain&markers=color:green%7CPLACE";
 
 // ROUTES
 public static string
-GENERAL_ROUTE = "general",
+GENERAL_ROUTE = "general", 
 USERS_ROUTE = "users",
 PLANTS_ROUTE = "trees",
 PLANTS_REQUEST_ROUTE= "tree_requests",
@@ -43,9 +43,9 @@ QUERY_ACTION = "query/fields?";
 
 // MISC
 public static string
-FACEBOOK_PAGE = "https://www.facebook.com/PAGINA",
-INSTAGRAM_PAGE = "https://www.instagram.com/PAGINA",
-POINT = "moeda",
-GAME = "Inovarg";
+FACEBOOK_PAGE = "https://www.facebook.com/pg/cineatos/",
+INSTAGRAM_PAGE = "https://www.instagram.com/cineatos",
+POINT = "UDL",
+GAME = "cineatos";
 
 }
