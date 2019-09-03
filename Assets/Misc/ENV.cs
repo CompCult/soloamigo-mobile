@@ -45,7 +45,7 @@ QUERY_ACTION = "query/fields?";
 public static string
 FACEBOOK_PAGE = "https://www.facebook.com/pg/cineatos/",
 INSTAGRAM_PAGE = "https://www.instagram.com/cineatos",
-POINT = "UDL",
-GAME = "cineatos";
+POINT = "Gemas",
+GAME = "SoloAmigo";
 
 }
