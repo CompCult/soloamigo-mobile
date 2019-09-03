@@ -420,8 +420,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Quer testar sua intelig\xEAncia?\nLegal! Aqui tem um mont\xE3o de quizzes
     pra gente se divertir.\n\nOs quizzes s\xE3o perguntinhas onde pode ou n\xE3o ter
-    uma resposta certa. Leia direitinho o que o pergaminho do quiz diz e quem sabe
-    voc\xEA n\xE3o tem uma grande surpresa?"
+    uma resposta certa. Leia direitinho o que o pergaminho do quiz diz e mostre quem é Pedon mais sábio!"
 --- !u!114 &114596141630135522
 MonoBehaviour:
   m_ObjectHideFlags: 1

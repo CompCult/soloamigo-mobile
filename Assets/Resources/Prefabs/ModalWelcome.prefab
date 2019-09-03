@@ -364,8 +364,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Parece que \xE9 sua primeira vez por aqui, hein? \n\nEu e os outros seres
-    de Frutera te guiaremos at\xE9 voc\xEA entender tudinho.\n\nEstamos muito felizes
+  m_Text: "Parece que \xE9 sua primeira vez por aqui, hein? \n\nEu e os outros Pedons
+    te guiaremos at\xE9 voc\xEA entender tudinho.\n\nEstamos muito felizes
     por voc\xEA estar participando!"
 --- !u!114 &114523346051535680
 MonoBehaviour:
