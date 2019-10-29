@@ -16,7 +16,7 @@ public class GroupMemberCard : MonoBehaviour
 
 	public bool isCurrentUser;
 
-	private Color COLOR_GREEN = new Color(0.07450981f, 0.7568628f, 0.3333333f),
+	private Color COLOR_GREEN = new Color(0.6470588f, 0.1647059f, 0.1647059f),
 				  COLOR_RED = new Color(0.8745099f, 0.3058824f, 0.3647059f);
 
 	public void UpdateMember(GroupMember member)

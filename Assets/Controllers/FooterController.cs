@@ -8,7 +8,7 @@ public class FooterController : ScreenController
 	public GameObject[] buttons;
 	public GameObject buttonsMenu;
 
-	private Color greenColor = new Color(0.07450981f, 0.7568628f, 0.3333333f),
+	private Color greenColor = new Color(0.6470588f, 0.1647059f, 0.1647059f),
 				  greyColor = new Color(0.4470589f, 0.4470589f, 0.4470589f);
 
 	public void Start()
