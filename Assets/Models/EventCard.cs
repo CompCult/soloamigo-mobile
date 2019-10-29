@@ -21,7 +21,7 @@ public class EventCard : MonoBehaviour
 
 	private Dictionary <string, string> statusDict = new Dictionary<string, string>();
 
-	private Color COLOR_GREEN = new Color(0.1444823f, 0.490566f, 0.1272695f),
+	private Color COLOR_GREEN = new Color(0.6470588f, 0.1647059f, 0.1647059f),
 				  COLOR_YELLOW = new Color(0.745283f, 0.6818547f, 0f),
 				  COLOR_RED = new Color(0.7264151f, 0.06510323f, 0.1408988f);
 

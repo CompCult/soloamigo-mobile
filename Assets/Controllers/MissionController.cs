@@ -14,7 +14,7 @@ public class MissionController : ScreenController
 	private Mission currentMission;
 	private MissionAnswer currentAnswer;
 	private bool canSend = false;
-	private Color COLOR_GREEN = new Color(0.07450981f, 0.7568628f, 0.3333333f),
+	private Color COLOR_GREEN = new Color(0.6470588f, 0.1647059f, 0.1647059f),
 		  	  	  COLOR_RED = new Color(1f, 0.4392157f, 0.4392157f);
 
 	public void Start ()
